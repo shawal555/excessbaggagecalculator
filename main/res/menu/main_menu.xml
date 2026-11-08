@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Share button shows directly as an icon on the toolbar -->
+    <item
+        android:id="@+id/action_share"
+        android:title="Share App"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="always" />
+
+    <!-- About option goes inside the three-dot overflow menu -->
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="never" />
+
+</menu>
